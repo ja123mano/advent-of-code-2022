@@ -1,12 +1,3 @@
-# new_dict = {"a":[{"c":[284, 852, 258, 369], "d":[123, 321, 456, 654]}, 894, 1024], "b":[{"e":[753, 357]}, 741, 147]}
-
-# print(new_dict, "\n")
-# print(new_dict.get("a"))
-# print(new_dict.get("a")[0].get("c"))
-# print(new_dict.get("a")[0].get("d"), "\n")
-# print(new_dict.get("b"))
-# print(new_dict.get("b")[0].get("e"))
-
 def get_data():
     with open("Day 7\\input.txt", "r") as file:
         guide = file.readlines()
